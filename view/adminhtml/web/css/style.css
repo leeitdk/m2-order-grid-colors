@@ -1,0 +1,45 @@
+td.new {
+    background-color: rgba(179, 229, 252, 0.93);
+}
+td.closed {
+    background-color: #ef7b71;
+}
+td.canceled {
+    background-color: #d58787;
+}
+td.holded {
+    background-color: #fad430;
+}
+td.complete {
+    background-color: #00e673;
+}
+td.processing {
+    background-color: #26b5f6;
+}
+td.fraud {
+    background-color: #ff0101;
+}
+td.pending_payment  {
+    background-color: #0fa7ff;
+}
+td.payment_review {
+    background-color: #1ab7ea;
+}
+td.pending {
+    background-color: #81D4FA;
+}
+td.cancelled {
+    background-color: #ff7870;
+}
+td.paypal_canceled_reversal {
+    background-color: #ff5216;
+}
+td.pending_paypal {
+    background-color: #ee9900;
+}
+td.paypal_reversed {
+    background-color: #ff0101;
+}
+td.needs_review {
+    background-color: #ffff00;
+}

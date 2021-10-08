@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="leeit" translate="label" sortOrder="2000">
+            <label>LEEIT</label>
+        </tab>
+        <section id="leeit_ordergridcolors" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Order Grid Colors</label>
+            <tab>leeit</tab>
+            <resource>Leeit_OrderGridColors::config</resource>
+            <group id="grid" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Order Grid Colors</label>
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Enable / Disable Order Grid Colors</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

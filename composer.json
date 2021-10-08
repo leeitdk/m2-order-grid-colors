@@ -1,0 +1,15 @@
+{
+  "name": "leeit/ordergridcolors",
+  "type": "magento2-module",
+  "description": "colors based on order status in order grid",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Leeit\\OrderGridColors\\": ""
+    }
+  }
+}
