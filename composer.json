@@ -1,15 +1,20 @@
 {
-  "name": "leeit/ordergridcolors",
-  "type": "magento2-module",
-  "description": "colors based on order status in order grid",
-  "version": "1.0.0",
-  "license": "proprietary",
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "leeit/ordergridcolors",
+    "description": "colors based on order status in order grid",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
     ],
-    "psr-4": {
-      "Leeit\\OrderGridColors\\": ""
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "~100.0.4"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Leeit\\OrderGridColors\\": ""
+        }
     }
-  }
 }
